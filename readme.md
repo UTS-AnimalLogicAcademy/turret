@@ -1,6 +1,6 @@
 # turret
 
-Turret is a tool which connects [Autodesk's Shotgun](https://www.shotgunsoftware.com/) and [Pixar's USD](https://graphics.pixar.com/usd/docs/index.html) to create a light-weight file resolver architecture that works across a range of content creation software. Turret is built around a workflow that allows assets to push updates down stream rather than the more manual and traditional alternative of artists needing to pull assets when needed. This works well in smaller development teams and for us at the [UTS Animal Logic Academy](https://animallogicacademy.uts.edu.au/). 
+Turret is a tool which connects [Autodesk's Shotgun](https://www.shotgunsoftware.com/) and platform agnostic DCC applications to create a light-weight file resolver architecture that works across a range of content creation software. Turret is built around a workflow that allows assets to push updates down stream rather than the more manual and traditional alternative of artists needing to pull assets when needed. This works well in smaller development teams and for us at the [UTS Animal Logic Academy](https://animallogicacademy.uts.edu.au/). Included as part of this release are our integrations with [Pixar's USD](https://graphics.pixar.com/usd/docs/index.html) and the [Foundry's Katana](https://www.foundry.com/products/katana).
 
 Turret has been developed by students and staff at the [UTS Animal Logic Academy](https://animallogicacademy.uts.edu.au/) over the last three years and is used throughout almost every stage of production.
 
