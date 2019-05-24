@@ -8,18 +8,18 @@ This repository functions as a portal to each of the other corresponding turret 
 
 ## Usage
 
-There are two components to turret. [turret_server](https://github.com/UTS-AnimalLogicAcademy/turret_server) which runs in the background on artists workstations, and some extension of [turret_lib](https://github.com/UTS-AnimalLogicAcademy/turret_lib). Building instructions can be found inside each repository.
+There are two components to turret. **turret_server** which runs in the background on artists workstations, and some extension of **turret_lib**. Building instructions can be found inside each repository.
 
 ### Server
 
-[turret_server](https://github.com/UTS-AnimalLogicAcademy/turret_server) requires pyzmq and [turret_server](https://github.com/UTS-AnimalLogicAcademy/turret_resolver).
+**turret_server** requires pyzmq and **turret_resolver**.
 
  * [turret_resolver](https://github.com/UTS-AnimalLogicAcademy/turret_resolver)
  * [turret_server](https://github.com/UTS-AnimalLogicAcademy/turret_server)
 
 ### Client
 
-[turret_lib](https://github.com/UTS-AnimalLogicAcademy/turret_server) is a DCC agnostic, C++ library that handles calls back to a [turret_server](https://github.com/UTS-AnimalLogicAcademy/turret_server). For us we mainly use [turret_usd](https://github.com/UTS-AnimalLogicAcademy/turret_usd) and [turret_klf](https://github.com/UTS-AnimalLogicAcademy/turret_klf) which both extend [turret_lib](https://github.com/UTS-AnimalLogicAcademy/turret_lib). More information can be found in their respective repositories.
+**turret_lib** is a DCC agnostic, C++ library that handles calls back to a **turret_server**. For us we mainly use **turret_usd** and **turret_klf** which both extend **turret_lib**. More information can be found in their respective repositories.
 
  * [turret_lib](https://github.com/UTS-AnimalLogicAcademy/turret_lib)
  * [turret_usd](https://github.com/UTS-AnimalLogicAcademy/turret_usd)
